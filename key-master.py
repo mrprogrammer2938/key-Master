@@ -51,9 +51,12 @@ def list2():
     print("{3}-Exit")
     choose = input(opt)
     if choose == '1':
+      time.sleep(1)
+      file = input("\nEnter file name: ")
+      time.sleep(1)
       print("\nCreating...")
       time.sleep(2)
-      a = open("run.py","w")
+      a = open(file,"w")
       a.write("""
 # This code write by Mr.nope
 
@@ -100,9 +103,12 @@ def list():
     print("{3}-Exit")
     choose = input(opt)
     if choose == '1':
+      time.sleep(1)
+      file = input("Enter file name: ")
+      time.sleep(1)
       print("\nCreating...")
       time.sleep(2)
-      a = open("run.py","w")
+      a = open(file,"w")
       a.write("""
 # This code write by Mr.nope
 
