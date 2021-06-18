@@ -75,7 +75,7 @@ try:
 except KeyboardInterrupt:
     print("Exiting...")""")
       a.close()
-      print("Finish...!")
+      print("\nFinish...!")
       sys.exit()
     elif choose == '2':
         cls()
@@ -127,7 +127,7 @@ try:
 except KeyboardInterrupt:
     print("Exiting...")""")
       a.close()
-      print("Finish...!")
+      print("\nFinish...!")
       sys.exit()
     elif choose == '2':
         cls()
