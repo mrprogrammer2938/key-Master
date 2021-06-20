@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 # This code write by Mr.nope
+# Version: 1.3.0
+# Github: https://github.com/mrprogrammer2938
+# Instagram: https://instagram.com/programmer2938
 import os
 import time
 import sys
